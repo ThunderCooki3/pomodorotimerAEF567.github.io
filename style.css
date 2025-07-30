@@ -1,0 +1,45 @@
+body{
+    background: #FFF;
+    font-family: "Pacifico", cursive;
+}
+
+.heading{
+    color: #bae8e8
+}
+
+.row{
+    width: 100%;
+}
+
+.timer{
+    color: #000000
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid #000;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stylinboi{
+    color:aquamarine;
+    border: 2px solid transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.stylinboi:hover{
+    color:red
+    border: 2px solid #000000
+    transition: 0.3s ease;
+}
+
+.show_message{
+    display:block;
+    padding:1rem 0;
+    background: #FFF;
+    border-radius: 0.5rem;
+    transition: 0.5s ease;
+}
